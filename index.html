@@ -30,15 +30,60 @@
            </div>
            <div class="bio">
                <div class="headstar"> 
-               <h1 class="header1">diploe-miles</h1>
+               <h1 class="header1" id="firsthead">diploe-miles</h1>
                <button type="button1" class="button1">Edit Profile</button>
                <svg aria-label="Options" class="setting " fill="#262626" height="24" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M46.7 20.6l-2.1-1.1c-.4-.2-.7-.5-.8-1-.5-1.6-1.1-3.2-1.9-4.7-.2-.4-.3-.8-.1-1.2l.8-2.3c.2-.5 0-1.1-.4-1.5l-2.9-2.9c-.4-.4-1-.5-1.5-.4l-2.3.8c-.4.1-.8.1-1.2-.1-1.4-.8-3-1.5-4.6-1.9-.4-.1-.8-.4-1-.8l-1.1-2.2c-.3-.5-.8-.8-1.3-.8h-4.1c-.6 0-1.1.3-1.3.8l-1.1 2.2c-.2.4-.5.7-1 .8-1.6.5-3.2 1.1-4.6 1.9-.4.2-.8.3-1.2.1l-2.3-.8c-.5-.2-1.1 0-1.5.4L5.9 8.8c-.4.4-.5 1-.4 1.5l.8 2.3c.1.4.1.8-.1 1.2-.8 1.5-1.5 3-1.9 4.7-.1.4-.4.8-.8 1l-2.1 1.1c-.5.3-.8.8-.8 1.3V26c0 .6.3 1.1.8 1.3l2.1 1.1c.4.2.7.5.8 1 .5 1.6 1.1 3.2 1.9 4.7.2.4.3.8.1 1.2l-.8 2.3c-.2.5 0 1.1.4 1.5L8.8 42c.4.4 1 .5 1.5.4l2.3-.8c.4-.1.8-.1 1.2.1 1.4.8 3 1.5 4.6 1.9.4.1.8.4 1 .8l1.1 2.2c.3.5.8.8 1.3.8h4.1c.6 0 1.1-.3 1.3-.8l1.1-2.2c.2-.4.5-.7 1-.8 1.6-.5 3.2-1.1 4.6-1.9.4-.2.8-.3 1.2-.1l2.3.8c.5.2 1.1 0 1.5-.4l2.9-2.9c.4-.4.5-1 .4-1.5l-.8-2.3c-.1-.4-.1-.8.1-1.2.8-1.5 1.5-3 1.9-4.7.1-.4.4-.8.8-1l2.1-1.1c.5-.3.8-.8.8-1.3v-4.1c.4-.5.1-1.1-.4-1.3zM24 41.5c-9.7 0-17.5-7.8-17.5-17.5S14.3 6.5 24 6.5 41.5 14.3 41.5 24 33.7 41.5 24 41.5z" fill-rule="evenodd"></path></svg>
                </div>
                <div class="profile">
                <p>29posts 239 followers 930 following  </p>
-                <h4>Okoro Toby</h4>
-                <p> I love basketball 🏀 ,Rock music, chess ♟, I love reading ,i love coding <br>
+                <h4 class="name"></h4>
+                <p class="profiler"> I love basketball 🏀 ,Rock music, chess ♟, I love reading ,i love coding 
                     software engineer. Just living my best life 🔥with dimples💖 </p>
+                </div>
+                <div class="modal-container" id="modal-container">
+                    <div class="modal">
+                        <div class="sidebar">
+                            <h4>Edit Profile</h4>
+                            <h4>Change Password</h4>
+                            <h4>Apps and Websites</h4>
+                            <h4>Email and SMS</h4>
+                            <h4>Push Notification</h4>
+                            <h4>Manage Contacts</h4>
+                            <h4>Privacy and Security</h4>
+                            <h4>Login Activity</h4>
+                            <h4>Emails from Instagram</h4>
+                            <p>Switch to professional Account</p>
+                        </div>
+                        <div class="edit">
+                            <div class="avatar2">
+                                <img src="https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/123215168_355559955763763_5715982880711068637_n.jpg?tp=1&_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_ohc=GXjb7MPoJXAAX-ZS3kY&oh=901695dd08a4933a0bef5fb8dd139448&oe=6075E558" 
+                                alt="Avatar" class="avatar2"> 
+                           </div>
+                           <h4>diploe-miles</h4>
+                           <h4>change profile picture</h4>
+                           <input type="text" placeholder="Name" class="namedit" id="change" value="">
+                           <p>Help people discover your account by using the name you're known by: either your full name, nickname, or business name.
+                            You can only change your name twice within 14 days.</p>
+                            <input type="text" placeholder="Name" class="userediting" id="useredit" value="">
+                            <p>
+                                diploe_miles
+                                In most cases, you'll be able to change your username back to diploe_miles for another 14 days.</p>
+                                <input type="text" placeholder="Website" class="website">
+                                <input type="text" placeholder="Bio" class="bio" id="biology" value="">
+                                <p>
+                                    Personal Information
+                                    Provide your personal information, even if the account
+                                     is used for a business, a pet or something else. 
+                                    This won't be a part of your public profile.</p>
+                                    <input type="Email" placeholder="Email" class="emailedit" >
+                                    <input type="text" placeholder="phone-number" class="phone">
+                                    <input type="text" placeholder="gender" class="gender">
+                                    <input type="checkbox" placeholder="terms" class="check">
+                                    <p>Include your account when recommending similar accounts people might want to follow.</p>
+                                    <button type="button" class="buttons">Submit</button>
+                                    <button type="buttons" class="close">Close </button>
+                        </div>
+                    </div>
                 </div>
            </div>
           </div>
@@ -107,5 +152,6 @@
          </div>
     </nav>
     <script src="https://kit.fontawesome.com/ab14178801.js" crossorigin="anonymous"></script>
+    <script src="App.js"></script>
 </body>
 </html>
